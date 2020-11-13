@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <meta name="Description" content="A html file on contact forms">
+    </head>
+<body>
+<form method="POST">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="r_name" required></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="r_email" required></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="tel" name="r_tel" required></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="r_pwd" required></td>
+        </tr>
+        <tr>
+            <td>DOB:</td>
+            <td><input type="date" name="r_dob" required></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="r_gender" value="Male">Male<br>
+                <input type="radio" name="r_gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><select name="r_country" required>
+                     <option value="India">India</option>
+                     <option value="USA">USA</option>
+                     <option value="Canada">Canada</option>
+                     <option value="UAE">UAE</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="r_submit" value="Register"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
