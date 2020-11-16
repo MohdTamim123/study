@@ -1,0 +1,4 @@
+DELETING A BRANCH---
+
+       -git branch -D <branch name>
+       -git push --delete <branch name>
