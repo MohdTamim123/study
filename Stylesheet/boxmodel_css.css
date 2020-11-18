@@ -1,0 +1,10 @@
+div{
+    width: 450px;
+    color: crimson;
+    font-family: sans-serif;
+    padding: 20px;
+    border: 2px;
+    margin: 40px;
+    background-color: black;
+    height: auto;
+}
