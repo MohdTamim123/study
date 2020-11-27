@@ -1,0 +1,23 @@
+h1{
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: green;
+    margin: 4px 2px;
+    border: 2px;
+    display: inline-block;
+    font-family: sans-serif;
+    text-align: center;
+}
+.button:hover{
+    background-color: orange;
+    color: white;
+    
+}
